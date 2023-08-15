@@ -11,6 +11,10 @@ const Greeting = () => {
         setGreeting(response.data.greeting);
       })
       .catch((error) => {
+      .then(response => {
+        setGreeting(response.data.greeting);
+      })
+      .catch(error => {
         console.error('Error fetching random greeting:', error);
       });
   }, []);
