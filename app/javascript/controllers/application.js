@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 import { Application } from '@hotwired/stimulus';
 
 const application = Application.start();
