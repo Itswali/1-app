@@ -1,6 +1,5 @@
 const initialState = {
   greeting: '',
-  greeting: ''
 };
 
 const greetingReducer = (state = initialState, action) => {

@@ -11,14 +11,4 @@ const App = () => (
     </Router>
   </Provider>
 );
-const App = () => {
-  return (
-    <Provider store={store}>
-      <Router>
-        <Route path="/" component={Greeting} />
-      </Router>
-    </Provider>
-  );
-};
-
 export default App;
